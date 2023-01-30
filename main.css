@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  font-family: montserrat;
+  text-align: center;
+  padding: 2em;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 239, 186),
+    rgb(255, 255, 255)
+  );
+  justify-content: center;
+}
+
+#root {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border-radius: 10px;
+  width: 30em;
+  padding: 1em;
+}
+
+img {
+  height: 10em;
+  width: 8em;
+  object-fit: cover;
+  border-radius: 0.3em;
+  filter: brightness(0.8);
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
